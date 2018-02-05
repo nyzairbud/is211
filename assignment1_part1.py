@@ -12,6 +12,7 @@ def listDivide(numbers=([]), divide=2):
     return count
 
 
-def testlistDivide(self):
+def testlistDivide(listDivide):
     if __name__ == '__main__':
         testlistDivide()
+
