@@ -3,6 +3,7 @@ class Book(object):
         self.author = author
         self.title = title
     def display(self):
-       self.author = input('Who is the author: ')
-       self.title = input('what is the title: ')
-       OUTPUT = '{0} written by {0}'.format(self.author, self.title)
+        book1 = Book("Of Mice and Men", "John Steinbeck")
+        book2 = Book("To Kill a Mockingbird", "Harper Lee")
+        print("{} written by {}".format(book1))
+        print("{} written by {}".format(book2))
