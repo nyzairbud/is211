@@ -3,7 +3,10 @@ class Book(object):
         self.author = author
         self.title = title
     def display(self):
-        book1 = Book("Of Mice and Men", "John Steinbeck")
-        book2 = Book("To Kill a Mockingbird", "Harper Lee")
-        print("{} written by {}".format(book1))
-        print("{} written by {}".format(book2))
+        print(self.title, 'written by', self.author)
+
+book1 = Book("John Steinbeck", "Of Mice and Men")
+book2 = Book("Harper Lee", "To Kill a Mockingbird")
+
+print book1.display()
+print book2.display()
